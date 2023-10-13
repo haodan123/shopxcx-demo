@@ -1,0 +1,76 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.data-v-7a10d230:export {
+  theme: #007aff;
+}
+.land-content.data-v-7a10d230 {
+  padding: 10px;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+.content-item.data-v-7a10d230 {
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #f4f4f4;
+}
+.item-top.data-v-7a10d230 {
+  width: 100%;
+  height: 250px;
+}
+.item-top image.data-v-7a10d230 {
+  width: 100%;
+  height: 100%;
+}
+.item-btm.data-v-7a10d230 {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.item-btm .btm-t.data-v-7a10d230 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-btm .btm-b.data-v-7a10d230 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-btm .btm-left .title.data-v-7a10d230 {
+  font-size: 18px;
+  color: #000;
+}
+.item-btm .btm-left .subtitle.data-v-7a10d230 {
+  font-size: 14px;
+  color: #ccc;
+}
+.item-btm .btm-right image.data-v-7a10d230 {
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,419 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/tabBar/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#4390B7",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/tabBar/category/category",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/tabBar/shop/shop",
+			"style": {
+				"navigationBarTitleText": "认养"
+			}
+		}, {
+			"path": "pages/tabBar/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/tabBar/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pages/home",
+			"pages": [{
+				"path": "pages/Location/Location",
+				"style": {
+					"navigationBarTitleText": "选择地址"
+				}
+			}, {
+				"path": "pages/myrenyang/myrenyang",
+				"style": {
+					"navigationBarTitleText": "我的认养"
+				}
+			}, {
+				"path": "pages/myrenzhong/myrenzhong",
+				"style": {
+					"navigationBarTitleText": "我的认种"
+				}
+			}, {
+				"path": "pages/mytudi/mytudi",
+				"style": {
+					"navigationBarTitleText": "我的土地"
+				}
+			}, {
+				"path": "pages/mytudiDetail/mytudiDetail",
+				"style": {
+					"navigationBarTitleText": "土地详情"
+				}
+			}, {
+				"path": "pages/renyang/renyang",
+				"style": {
+					"navigationBarTitleText": "立即认养"
+				}
+			}, {
+				"path": "pages/renzhong/renzhong",
+				"style": {
+					"navigationBarTitleText": "立即认种"
+				}
+			}, {
+				"path": "pages/tudi/tudi",
+				"style": {
+					"navigationBarTitleText": "立即认领"
+				}
+			}, {
+				"path": "pages/huanjingck/huanjingck",
+				"style": {
+					"navigationBarTitleText": "环境查看"
+				}
+			}, {
+				"path": "pages/zhiboList/zhiboList",
+				"style": {
+					"navigationBarTitleText": "直播溯源"
+				}
+			}, {
+				"path": "pages/huodongyh/huodongyh",
+				"style": {
+					"navigationBarTitleText": "活动优惠"
+				}
+			}, {
+				"path": "pages/myrenyangDetail/myrenyangDetail",
+				"style": {
+					"navigationBarTitleText": "认养详情"
+				}
+			}, {
+				"path": "pages/myrenzhongDetail/myrenzhongDetail",
+				"style": {
+					"navigationBarTitleText": "认种详情"
+				}
+			}]
+		},
+		// , {
+		// 	"root": "pages/category",
+		// 	"pages": [
+		// 		// {
+		// 		// 	"path": "pages/myrenyang",
+		// 		// 	"style": {
+		// 		// 		"navigationBarTitleText": "我的认养"
+		// 		// 	}
+		// 		// }
+		// 	]
+		// },
+		{
+			"root": "pages/shop",
+			"pages": [{
+				"path": "pages/myrenyang/myrenyang",
+				"style": {
+					"navigationBarTitleText": "我的认养"
+				}
+			}, {
+				"path": "pages/myrenzhong/myrenzhong",
+				"style": {
+					"navigationBarTitleText": "我的认种"
+				}
+			}, {
+				"path": "pages/mytudi/mytudi",
+				"style": {
+					"navigationBarTitleText": "我的土地"
+				}
+			}, {
+				"path": "pages/mytudiDetail/mytudiDetail",
+				"style": {
+					"navigationBarTitleText": "土地详情"
+				}
+			}, {
+				"path": "pages/renyang/renyang",
+				"style": {
+					"navigationBarTitleText": "立即认养"
+				}
+			}, {
+				"path": "pages/renzhong/renzhong",
+				"style": {
+					"navigationBarTitleText": "立即认种"
+				}
+			}, {
+				"path": "pages/tudi/tudi",
+				"style": {
+					"navigationBarTitleText": "立即认领"
+				}
+			}, {
+				"path": "pages/huanjingck/huanjingck",
+				"style": {
+					"navigationBarTitleText": "环境查看"
+				}
+			}, {
+				"path": "pages/huodongyh/huodongyh",
+				"style": {
+					"navigationBarTitleText": "活动优惠"
+				}
+			}, {
+				"path": "pages/myrenyangDetail/myrenyangDetail",
+				"style": {
+					"navigationBarTitleText": "认养详情"
+				}
+			}, {
+				"path": "pages/myrenzhongDetail/myrenzhongDetail",
+				"style": {
+					"navigationBarTitleText": "认种详情"
+				}
+			}]
+		},
+		// {
+		// 	"root": "pages/cart",
+		// 	"pages": [
+		// 		// {
+		// 		// 	"path": "pages/myrenyang",
+		// 		// 	"style": {
+		// 		// 		"navigationBarTitleText": "我的认养"
+		// 		// 	}
+		// 		// }
+		// 	]
+		// },
+		{
+			"root": "pages/suyuan",
+			"pages": [{
+				"path": "pages/spsy/spsy",
+				"style": {
+					"navigationBarTitleText": "商品溯源"
+				}
+			}, {
+				"path": "pages/tdsy/tdsy",
+				"style": {
+					"navigationBarTitleText": "土地溯源"
+				}
+			}]
+		},
+		{
+			"root": "pages/user",
+			"pages": [{
+					"path": "pages/address/address",
+					"style": {
+						"navigationBarTitleText": "收货地址"
+					}
+				},
+				{
+					"path": "pages/addressManage/addressManage",
+					"style": {
+						"navigationBarTitleText": "收货地址"
+					}
+				},
+				{
+					"path": "pages/setting/setting",
+					"style": {
+						"navigationBarTitleText": "个人信息"
+					}
+				},
+				{
+					"path": "pages/youhuiquan/youhuiquan",
+					"style": {
+						"navigationBarTitleText": "优惠券"
+					}
+				}, {
+					"path": "pages/myCoupon/myCoupon",
+					"style": {
+						"navigationBarTitleText": "我的优惠券"
+					}
+				},
+				{
+					"path": "pages/shoucang/shoucang",
+					"style": {
+						"navigationBarTitleText": "我的收藏"
+					}
+				},
+
+				{
+					"path": "pages/tuikuan/tuikuan",
+					"style": {
+						"navigationBarTitleText": "退款"
+					}
+				},
+				{
+					"path": "pages/kaipiao/kaipiao",
+					"style": {
+						"navigationBarTitleText": "我要开票"
+					}
+				},
+				{
+					"path": "pages/kaipiaoAdd/kaipiaoAdd",
+					"style": {
+						"navigationBarTitleText": "开具发票"
+					}
+				},
+				{
+					"path": "pages/taitou/taitou",
+					"style": {
+						"navigationBarTitleText": "常用抬头"
+					}
+				},
+				{
+					"path": "pages/taitouAdd/taitouAdd",
+					"style": {
+						"navigationBarTitleText": "抬头设置"
+					}
+				}
+			]
+		}, {
+			"root": "pages/xieyi",
+			"pages": [{
+					"path": "pages/index/index",
+					"style": {
+						"navigationBarTitleText": "用户协议"
+					}
+				},
+				{
+					"path": "pages/shouhou/shouhou",
+					"style": {
+						"navigationBarTitleText": "售后协议"
+					}
+				},
+				{
+					"path": "pages/zhifu/zhifu",
+					"style": {
+						"navigationBarTitleText": "支付协议"
+					}
+				},
+				{
+					"path": "pages/renling/renling",
+					"style": {
+						"navigationBarTitleText": "认领协议"
+					}
+				},
+				{
+					"path": "pages/renzhong/renzhong",
+					"style": {
+						"navigationBarTitleText": "认种协议"
+					}
+				},
+				{
+					"path": "pages/renyang/renyang",
+					"style": {
+						"navigationBarTitleText": "认养协议"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/goods",
+			"pages": [{
+					"path": "pages/ryGoods/ryGoods",
+					"style": {
+						"navigationBarTitleText": "立即认养"
+					}
+				},
+				{
+					"path": "pages/rzGoods/rzGoods",
+					"style": {
+						"navigationBarTitleText": "立即认种"
+					}
+				},
+				{
+					"path": "pages/spGoods/spGoods",
+					"style": {
+						"navigationBarTitleText": "立即购买"
+					}
+				},
+				{
+					"path": "pages/tdGoods/tdGoods",
+					"style": {
+						"navigationBarTitleText": "立即认领"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/order",
+			"pages": [{
+					"path": "pages/myOrder/myOrder",
+					"style": {
+						"navigationBarTitleText": "我的订单"
+					}
+				},
+				{
+					"path": "pages/orderDetail/orderDetail",
+					"style": {
+						"navigationBarTitleText": "订单详情"
+					}
+				},
+				{
+					"path": "pages/creatRzOrder/creatRzOrder",
+					"style": {
+						"navigationBarTitleText": "订单详情"
+					}
+				},
+				{
+					"path": "pages/creatRyOrder/creatRyOrder",
+					"style": {
+						"navigationBarTitleText": "订单详情"
+					}
+				},
+				{
+					"path": "pages/creatSpOrder/creatSpOrder",
+					"style": {
+						"navigationBarTitleText": "订单详情"
+					}
+				},
+				{
+					"path": "pages/creatTdOrder/creatTdOrder",
+					"style": {
+						"navigationBarTitleText": "订单详情"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		// "navigationBarTextStyle": "white",
+		// "navigationBarBackgroundColor": "#5BC267",
+		"navigationBarBackgroundColor": "#F8F8F8"
+		// "backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#47b34f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/tabBar/home/home",
+				"iconPath": "/static/tabbar/sy.png",
+				"selectedIconPath": "/static/tabbar/sy_a.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/tabBar/category/category",
+				"iconPath": "/static/tabbar/fl.png",
+				"selectedIconPath": "/static/tabbar/fl_a.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/tabBar/shop/shop",
+				"iconPath": "/static/tabbar/ry.png",
+				"selectedIconPath": "/static/tabbar/ry_a.png",
+				"text": "认养"
+			}, {
+				"pagePath": "pages/tabBar/cart/cart",
+				"iconPath": "/static/tabbar/gwc.png",
+				"selectedIconPath": "/static/tabbar/gwc_a.png",
+				"text": "购物车"
+			}, {
+				"pagePath": "pages/tabBar/user/user",
+				"iconPath": "/static/tabbar/my.png",
+				"selectedIconPath": "/static/tabbar/my_a.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}

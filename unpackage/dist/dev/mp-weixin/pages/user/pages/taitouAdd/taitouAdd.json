@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "抬头设置",
+  "usingComponents": {
+    "uni-data-checkbox": "../../../../uni_modules/uni-data-checkbox/components/uni-data-checkbox/uni-data-checkbox",
+    "uni-forms-item": "../../../../uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+    "uni-easyinput": "../../../../uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "uni-forms": "../../../../uni_modules/uni-forms/components/uni-forms/uni-forms",
+    "uv-button": "../../../../uni_modules/uv-button/components/uv-button/uv-button"
+  }
+}

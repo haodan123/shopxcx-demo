@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "立即认领",
+  "usingComponents": {
+    "win-slideshow": "../../../../components/win-slideshow/win-slideshow",
+    "uni-icons": "../../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-card": "../../../../uni_modules/uni-card/components/uni-card/uni-card",
+    "chuanganqi": "../../../../components/chuanganqi/chuanganqi",
+    "bctos-rich-text": "../../../../components/bctos-rich-text/bctos-rich-text",
+    "good-nav": "../../../../components/goodNav/goodNav",
+    "uv-radio": "../../../../uni_modules/uv-radio/components/uv-radio/uv-radio",
+    "uv-radio-group": "../../../../uni_modules/uv-radio/components/uv-radio-group/uv-radio-group",
+    "uni-popup-dialog": "../../../../uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../../../uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
+}

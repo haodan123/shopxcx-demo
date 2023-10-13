@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "分类",
+  "usingComponents": {
+    "uv-search": "../../../uni_modules/uv-search/components/uv-search/uv-search",
+    "uv-scroll-list": "../../../uni_modules/uv-scroll-list/components/uv-scroll-list/uv-scroll-list",
+    "uni-icons": "../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uv-empty": "../../../uni_modules/uv-empty/components/uv-empty/uv-empty",
+    "type-popup": "../../../components/typePopup/typePopup"
+  }
+}

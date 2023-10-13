@@ -1,0 +1,152 @@
+{
+  "pages": [
+    "pages/tabBar/home/home",
+    "pages/tabBar/category/category",
+    "pages/tabBar/shop/shop",
+    "pages/tabBar/cart/cart",
+    "pages/tabBar/user/user"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/home",
+      "pages": [
+        "pages/Location/Location",
+        "pages/myrenyang/myrenyang",
+        "pages/myrenzhong/myrenzhong",
+        "pages/mytudi/mytudi",
+        "pages/mytudiDetail/mytudiDetail",
+        "pages/renyang/renyang",
+        "pages/renzhong/renzhong",
+        "pages/tudi/tudi",
+        "pages/huanjingck/huanjingck",
+        "pages/zhiboList/zhiboList",
+        "pages/huodongyh/huodongyh",
+        "pages/myrenyangDetail/myrenyangDetail",
+        "pages/myrenzhongDetail/myrenzhongDetail"
+      ]
+    },
+    {
+      "root": "pages/shop",
+      "pages": [
+        "pages/myrenyang/myrenyang",
+        "pages/myrenzhong/myrenzhong",
+        "pages/mytudi/mytudi",
+        "pages/mytudiDetail/mytudiDetail",
+        "pages/renyang/renyang",
+        "pages/renzhong/renzhong",
+        "pages/tudi/tudi",
+        "pages/huanjingck/huanjingck",
+        "pages/huodongyh/huodongyh",
+        "pages/myrenyangDetail/myrenyangDetail",
+        "pages/myrenzhongDetail/myrenzhongDetail"
+      ]
+    },
+    {
+      "root": "pages/suyuan",
+      "pages": [
+        "pages/spsy/spsy",
+        "pages/tdsy/tdsy"
+      ]
+    },
+    {
+      "root": "pages/user",
+      "pages": [
+        "pages/address/address",
+        "pages/addressManage/addressManage",
+        "pages/setting/setting",
+        "pages/youhuiquan/youhuiquan",
+        "pages/myCoupon/myCoupon",
+        "pages/shoucang/shoucang",
+        "pages/tuikuan/tuikuan",
+        "pages/kaipiao/kaipiao",
+        "pages/kaipiaoAdd/kaipiaoAdd",
+        "pages/taitou/taitou",
+        "pages/taitouAdd/taitouAdd"
+      ]
+    },
+    {
+      "root": "pages/xieyi",
+      "pages": [
+        "pages/index/index",
+        "pages/shouhou/shouhou",
+        "pages/zhifu/zhifu",
+        "pages/renling/renling",
+        "pages/renzhong/renzhong",
+        "pages/renyang/renyang"
+      ]
+    },
+    {
+      "root": "pages/goods",
+      "pages": [
+        "pages/ryGoods/ryGoods",
+        "pages/rzGoods/rzGoods",
+        "pages/spGoods/spGoods",
+        "pages/tdGoods/tdGoods"
+      ]
+    },
+    {
+      "root": "pages/order",
+      "pages": [
+        "pages/myOrder/myOrder",
+        "pages/orderDetail/orderDetail",
+        "pages/creatRzOrder/creatRzOrder",
+        "pages/creatRyOrder/creatRyOrder",
+        "pages/creatSpOrder/creatSpOrder",
+        "pages/creatTdOrder/creatTdOrder"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#47b34f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/home/home",
+        "iconPath": "/static/tabbar/sy.png",
+        "selectedIconPath": "/static/tabbar/sy_a.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/category/category",
+        "iconPath": "/static/tabbar/fl.png",
+        "selectedIconPath": "/static/tabbar/fl_a.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/tabBar/shop/shop",
+        "iconPath": "/static/tabbar/ry.png",
+        "selectedIconPath": "/static/tabbar/ry_a.png",
+        "text": "认养"
+      },
+      {
+        "pagePath": "pages/tabBar/cart/cart",
+        "iconPath": "/static/tabbar/gwc.png",
+        "selectedIconPath": "/static/tabbar/gwc_a.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/tabBar/user/user",
+        "iconPath": "/static/tabbar/my.png",
+        "selectedIconPath": "/static/tabbar/my_a.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取收货地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {}
+}

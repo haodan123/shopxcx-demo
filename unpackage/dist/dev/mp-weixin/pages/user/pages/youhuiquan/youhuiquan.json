@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "优惠券",
+  "usingComponents": {
+    "uv-tabs": "../../../../uni_modules/uv-tabs/components/uv-tabs/uv-tabs",
+    "cards": "../../../../components/cards/cards"
+  }
+}

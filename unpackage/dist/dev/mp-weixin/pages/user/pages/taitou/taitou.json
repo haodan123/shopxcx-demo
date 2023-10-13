@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "常用抬头",
+  "usingComponents": {
+    "uni-tag": "../../../../uni_modules/uni-tag/components/uni-tag/uni-tag",
+    "uni-icons": "../../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uv-button": "../../../../uni_modules/uv-button/components/uv-button/uv-button"
+  }
+}

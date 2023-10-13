@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "立即认养",
+  "usingComponents": {
+    "uv-tabs": "../../../../uni_modules/uv-tabs/components/uv-tabs/uv-tabs"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="mycoupon data-v-4203e16c"><view class=" data-v-4203e16c" style="background-color:#fff"><uv-tabs wx:if="{{b}}" class="data-v-4203e16c" bindclick="{{a}}" u-i="4203e16c-0" bind:__l="__l" u-p="{{b}}"></uv-tabs></view><cards wx:if="{{c}}" class="data-v-4203e16c" u-i="4203e16c-1" bind:__l="__l" u-p="{{c}}"></cards></view>

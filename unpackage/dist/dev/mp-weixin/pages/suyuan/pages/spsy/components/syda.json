@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ditu2": "./ditu2",
+    "zhibo": "./zhibo"
+  }
+}

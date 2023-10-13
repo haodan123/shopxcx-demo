@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "土地溯源",
+  "usingComponents": {
+    "uv-empty": "../../../../uni_modules/uv-empty/components/uv-empty/uv-empty"
+  }
+}

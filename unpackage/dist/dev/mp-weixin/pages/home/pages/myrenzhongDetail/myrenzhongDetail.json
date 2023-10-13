@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "认种详情",
+  "usingComponents": {
+    "win-slideshow": "../../../../components/win-slideshow/win-slideshow",
+    "uni-card": "../../../../uni_modules/uni-card/components/uni-card/uni-card",
+    "bctos-rich-text": "../../../../components/bctos-rich-text/bctos-rich-text"
+  }
+}

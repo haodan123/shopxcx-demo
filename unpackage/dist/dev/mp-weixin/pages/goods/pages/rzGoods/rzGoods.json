@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "立即认种",
+  "usingComponents": {
+    "win-slideshow": "../../../../components/win-slideshow/win-slideshow",
+    "uni-card": "../../../../uni_modules/uni-card/components/uni-card/uni-card",
+    "bctos-rich-text": "../../../../components/bctos-rich-text/bctos-rich-text",
+    "good-nav": "../../../../components/goodNav/goodNav"
+  }
+}

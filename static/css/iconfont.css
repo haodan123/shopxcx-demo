@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "ceshi"; /* Project id 4111799 */
+	src: url('/static/css/iconfont.ttf') format('truetype');
+ /* src: url('iconfont.woff2?t=1694417542005') format('woff2'),
+       url('iconfont.woff?t=1694417542005') format('woff'),
+       url('iconfont.ttf?t=1694417542005') format('truetype'); */
+}
+
+.ceshi {
+  font-family: "ceshi" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiugai:before {
+  content: "\e698";
+}
+
+.icon-zhankai3:before {
+  content: "\e6bb";
+}
+
+.icon-camera:before {
+  content: "\e7d7";
+}
+
+.icon-home:before {
+  content: "\e69b";
+}
+
+.icon-chat_bubble:before {
+  content: "\e8e1";
+}
+
+.icon-Profile:before {
+  content: "\e642";
+}
+
+.icon-settings:before {
+  content: "\e840";
+}
+
+.icon-hangzhengguanli:before {
+  content: "\e663";
+}
+
+.icon-guihuaguanli:before {
+  content: "\e664";
+}
+
+.icon-hetongguanli:before {
+  content: "\e665";
+}
+

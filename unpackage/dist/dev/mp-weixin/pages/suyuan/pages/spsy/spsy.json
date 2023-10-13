@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "商品溯源",
+  "usingComponents": {
+    "uv-tabs": "../../../../uni_modules/uv-tabs/components/uv-tabs/uv-tabs",
+    "syda": "./components/syda",
+    "cpxx": "./components/cpxx"
+  }
+}

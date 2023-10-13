@@ -1,0 +1,1 @@
+<view><view wx:for="{{a}}" wx:for-item="content" wx:key="e"><rich-text nodes="{{content.a}}"></rich-text><video wx:if="{{content.b}}" src="{{content.c}}" controls style="{{'width:' + content.d}}"></video></view></view>

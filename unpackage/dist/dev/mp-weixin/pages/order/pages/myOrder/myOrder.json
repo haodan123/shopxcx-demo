@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "usingComponents": {
+    "uv-tabs": "../../../../uni_modules/uv-tabs/components/uv-tabs/uv-tabs",
+    "uv-empty": "../../../../uni_modules/uv-empty/components/uv-empty/uv-empty"
+  }
+}

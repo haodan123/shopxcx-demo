@@ -1,0 +1,1 @@
+<view class="content_list data-v-fa1507a0"><view class=" data-v-fa1507a0" style="text-align:center;background:#fff"> 使用优惠券 </view><scroll-view scroll-y="true" class="scroll_view_style data-v-fa1507a0"><cards wx:if="{{b}}" class="data-v-fa1507a0" bindtoUse="{{a}}" u-i="fa1507a0-0" bind:__l="__l" u-p="{{b}}"></cards></scroll-view></view>

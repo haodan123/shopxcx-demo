@@ -1,0 +1,29 @@
+
+page {
+		background: white;
+}
+.pageview {
+		margin: 15px;
+}
+.title {
+		font-weight: bold;
+		display: flex;
+		margin-top: 15px;
+		font-size: 17px;
+}
+.bodybox {}
+.textareatk {
+		background: #ececec80;
+		width: 300px;
+		height: 100px;
+		border-radius: 10px;
+		padding: 15px 10px;
+		margin: 10px auto;
+}
+.pagebt {
+		width: 92%;
+		background: #76C071;
+		color: white;
+		position: fixed;
+		bottom: 20px;
+}

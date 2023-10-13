@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationBarBackgroundColor": "#4390B7",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uv-icon": "../../../uni_modules/uv-icon/components/uv-icon/uv-icon",
+    "uv-search": "../../../uni_modules/uv-search/components/uv-search/uv-search",
+    "uni-icons": "../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uv-scroll-list": "../../../uni_modules/uv-scroll-list/components/uv-scroll-list/uv-scroll-list"
+  }
+}

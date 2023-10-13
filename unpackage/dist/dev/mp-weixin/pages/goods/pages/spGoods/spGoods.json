@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "立即购买",
+  "usingComponents": {
+    "win-slideshow": "../../../../components/win-slideshow/win-slideshow",
+    "uni-number-box": "../../../../uni_modules/uni-number-box/components/uni-number-box/uni-number-box",
+    "uni-card": "../../../../uni_modules/uni-card/components/uni-card/uni-card",
+    "bctos-rich-text": "../../../../components/bctos-rich-text/bctos-rich-text",
+    "good-nav": "../../../../components/goodNav/goodNav"
+  }
+}

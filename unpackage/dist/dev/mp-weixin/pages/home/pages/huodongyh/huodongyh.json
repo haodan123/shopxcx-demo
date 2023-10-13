@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "活动优惠",
+  "usingComponents": {
+    "uv-search": "../../../../uni_modules/uv-search/components/uv-search/uv-search",
+    "uv-scroll-list": "../../../../uni_modules/uv-scroll-list/components/uv-scroll-list/uv-scroll-list",
+    "uni-icons": "../../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "type-popup": "../../../../components/typePopup/typePopup"
+  }
+}

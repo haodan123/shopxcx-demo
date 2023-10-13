@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "认养",
+  "usingComponents": {
+    "uv-search": "../../../uni_modules/uv-search/components/uv-search/uv-search",
+    "uv-empty": "../../../uni_modules/uv-empty/components/uv-empty/uv-empty"
+  }
+}

@@ -1,0 +1,60 @@
+.normalFlex(@row, @items, @content) { display: flex; flex-direction: @row; align-items: @items; justify-content: @content; }
+
+// 100%宽高
+.w100 { width: 100%; }
+.h100 { height: 100%; }
+.wf { width: fit-content; }
+.hf { height: fit-content; }
+
+.c-p { cursor: pointer; }
+
+// flex布局
+.flex { display: flex; }
+.fd { flex-direction: column; }
+.f1 { flex: 1; flex-grow: 1; }
+.f-sb { .normalFlex(row, flex-start, space-between); }
+.f-cc { .normalFlex(row, center, center) }
+.f-cca { .normalFlex(column, center, space-around); }
+.f-csa { .normalFlex(column, flex-start, space-around); }
+.f-csb { .normalFlex(column, flex-start, space-between); }
+.f-sc { .normalFlex(row, center, space-between); }
+
+// 字体大小
+.f-12 { font-size: .15rem; }
+.f-14 { font-size: .175rem; }
+.f-16 { font-size: .2rem; }
+.f-18 { font-size: .225rem; }
+.f-20 { font-size: .25rem; }
+.f-22 { font-size: .275rem; }
+.f-24 { font-size: .3rem; }
+.f-28 { font-size: .35rem; }
+.f-30 { font-size: .375rem; }
+.f-32 { font-size: .4rem; }
+
+
+// 字体颜色
+.d-color { color: var(--default-color); }
+.s-color { color: var(--span-color); }
+.c-6c { color: #cccccc; }
+.c-61a { color: #61a8ff; }
+
+// 外内边距
+.p20 { padding: .25rem; }
+.pt20 { padding: .25rem 0; }
+.pz1 { padding: 0 .125rem; }
+.pz2 { padding: 0 .25rem; }
+.pz3 { padding: 0 .375rem; }
+.m0 { margin: 0; }
+.m10 { margin: .125rem; }
+.mt10 { margin: .125rem 0; }
+.m20 { margin: .25rem; }
+.mz20 { margin: 0 .25rem; }
+.mt20 { margin: .25rem 0; }
+.m30 { margin: .375rem; }
+
+// 层级
+.i-999 { z-index: 999; }
+.i-666 { z-index: 666; }
+
+// border
+.b-0 { border: none; }
